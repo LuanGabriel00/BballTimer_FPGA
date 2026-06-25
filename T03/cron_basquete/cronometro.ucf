@@ -1,0 +1,45 @@
+NET "ucf_SW_QT[1]" LOC = N16; # Switch 7 Quarto
+NET "ucf_SW_QT[0]" LOC = M15; # Switch 6 Quarto
+
+NET "ucf_SW_MIN[3]" LOC = M16; # Switch 5 Minutos
+NET "ucf_SW_MIN[2]" LOC = L15; # Switch 4 Minutos
+NET "ucf_SW_MIN[1]" LOC = K15; # Switch 3 Minutos
+NET "ucf_SW_MIN[0]" LOC = K16; # Switch 2 Minutos
+
+NET "ucf_SW_SEG[1]" LOC = J16; # Switch 1 Segundos
+NET "ucf_SW_SEG[0]" LOC = N15; # Switch 0 Segundos
+
+NET "ucf_LD_MIN[0]" LOC = L14; # Led LD0 
+NET "ucf_LD_MIN[1]" LOC = L13; # Led LD1 
+NET "ucf_LD_MIN[2]" LOC = M14; # Led LD2 
+NET "ucf_LD_MIN[3]" LOC = L12; # Led LD3
+
+NET "ucf_LD_QT[0]" LOC = N14; # Led LD4 
+NET "ucf_LD_QT[1]" LOC = M13; # Led LD5 
+NET "ucf_LD_QT[2]" LOC = P14; # Led LD6 
+NET "ucf_LD_QT[3]" LOC = R16; # Led LD7 
+
+NET "ucf_clock" LOC = T9;  # Pino de entrada do clock
+
+NET "ucf_reset"           LOC = J13; # reset associado ao BTN0
+NET "ucf_modo_novoQuarto" LOC = K14; # sinal modo/NovoQuarto associado ao BTN1
+NET "ucf_para_continua"   LOC = K13; # sinal para/continua associado ao BTN2
+NET "ucf_carga"           LOC = K12; # sinal carga associado ao BTN3
+
+## These are the pins of the display
+##	First, the segment pins
+NET "ucf_dec_ddp[7]"	LOC = F13;	# Segment a LED bar
+NET "ucf_dec_ddp[6]"	LOC = E13;	# Segment b LED bar
+NET "ucf_dec_ddp[5]"	LOC = G15;	# Segment c LED bar
+NET "ucf_dec_ddp[4]"	LOC = H13;	# Segment d LED bar
+NET "ucf_dec_ddp[3]"	LOC = J14;	# Segment e LED bar
+NET "ucf_dec_ddp[2]"	LOC = E14;	# Segment f LED bar
+NET "ucf_dec_ddp[1]"	LOC = G16;	# Segment g LED bar
+NET "ucf_dec_ddp[0]"	LOC = H14;	# Segment dp - the decimal point LED
+##	Next, the 7-segment anode control pins
+NET "ucf_an[3]"	LOC = F12;	# anode 3
+NET "ucf_an[2]"	LOC = G13;	# anode 2
+NET "ucf_an[1]"	LOC = G12;	# anode 1
+NET "ucf_an[0]"	LOC = G14;	# anode 0
+
+NET "ucf_reset" CLOCK_DEDICATED_ROUTE = FALSE;

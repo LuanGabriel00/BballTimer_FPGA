@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/HDL/Crono_Basquete_Nexys/cron_basquete/tb_cron_basq_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="rom" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_cron_basq" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/tb_cron_basq/ucf_clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_clock</obj_property>
+      <obj_property name="ObjectShortName">ucf_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_reset</obj_property>
+      <obj_property name="ObjectShortName">ucf_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_carga" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_carga</obj_property>
+      <obj_property name="ObjectShortName">ucf_carga</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_modo_novoquarto" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_modo_novoquarto</obj_property>
+      <obj_property name="ObjectShortName">ucf_modo_novoquarto</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_para_continua" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_para_continua</obj_property>
+      <obj_property name="ObjectShortName">ucf_para_continua</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/uut/centesimos_bcd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">centesimos_bcd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">centesimos_bcd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/uut/segundos_bcd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">segundos_bcd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">segundos_bcd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_sw_qt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_sw_qt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ucf_sw_qt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_sw_min" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_sw_min[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ucf_sw_min[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_sw_seg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_sw_seg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ucf_sw_seg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_ld_min" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_ld_min[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ucf_ld_min[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq/ucf_ld_qt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_ld_qt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ucf_ld_qt[3:0]</obj_property>
+   </wvobject>
+</wave_config>
